@@ -63,7 +63,6 @@ public class Tests
     [Test]
     public void TestFindApps()
     {
-        _driver.StartActivity("com.android.settings", ".Settings");
         _driver.FindElement(By.XPath("//*[@text='Apps']")).Click();
     }
 }
